@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639c68a8-9ac4-4f5a-9f12-5109d882d072" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Common/CommonCell.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Common/CommonCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Common/CommonView.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Common/CommonView.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Common/DetailPage.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Common/DetailPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/GuessLike.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/GuessLike.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/HighestReduction.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/HighestReduction.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/Home.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/Home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/HotChannel.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/HotChannel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/LocalDatas/guessLike.json" afterPath="$PROJECT_DIR$/TGMeituan/LocalDatas/guessLike.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/LocalDatas/hotChannel.json" afterPath="$PROJECT_DIR$/TGMeituan/LocalDatas/hotChannel.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/LocalDatas/shoppingCenter.json" afterPath="$PROJECT_DIR$/TGMeituan/LocalDatas/shoppingCenter.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/android/app/build.gradle" afterPath="$PROJECT_DIR$/TGMeituan/android/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/android/build.gradle" afterPath="$PROJECT_DIR$/TGMeituan/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/android/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/TGMeituan/android/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/TopMenu.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/TopMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Home/WellknownShop.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Home/WellknownShop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Main/Launch.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Main/Launch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Main/Main.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Main/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/Merchant/Merchant.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/Merchant/Merchant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/More/More.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/More/More.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/More/MoreCell.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/More/MoreCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/My/My.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/My/My.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/My/MyCell.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/My/MyCell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/My/MyHeadView.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/My/MyHeadView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TGMeituan/Components/My/MyOrderView.js" afterPath="$PROJECT_DIR$/TGMeituan/Components/My/MyOrderView.js" />
     </list>
     <ignored path="Meituan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,62 +40,7 @@
     <favorites_list name="Meituan" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guessLike.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TGMeituan/LocalDatas/guessLike.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuessLike.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/GuessLike.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingCenter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="938">
-              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shoppingCenter.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TGMeituan/LocalDatas/shoppingCenter.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,12 +48,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/Home.js" />
-        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js" />
         <option value="$PROJECT_DIR$/TGMeituan/LocalDatas/shoppingCenter.json" />
         <option value="$PROJECT_DIR$/TGMeituan/LocalDatas/hotChannel.json" />
         <option value="$PROJECT_DIR$/TGMeituan/LocalDatas/guessLike.json" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/Home.js" />
         <option value="$PROJECT_DIR$/TGMeituan/Components/Home/GuessLike.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/HighestReduction.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/HotChannel.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/TopMenu.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Home/WellknownShop.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Main/Main.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Main/Launch.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/Merchant/Merchant.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/More/More.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/More/MoreCell.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/My/My.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/My/MyCell.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/My/MyHeadView.js" />
+        <option value="$PROJECT_DIR$/TGMeituan/Components/My/MyOrderView.js" />
       </list>
     </option>
   </component>
@@ -210,7 +172,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGMeituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGMeituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="More" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGMeituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Merchant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGMeituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,6 +283,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Meituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TGMeituan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,18 +329,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482520973333</updated>
-      <workItem from="1482520975870" duration="6670000" />
+      <workItem from="1482520975870" duration="8533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6670000" />
+    <option name="totallyTimeSpent" value="8533000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15250151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15250151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -314,24 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TGMeituan/LocalDatas/shoppingCenter.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -342,19 +392,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TGMeituan/LocalDatas/guessLike.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="524">
+          <caret line="558" column="34" selection-start-line="558" selection-start-column="34" selection-end-line="558" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/GuessLike.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/HighestReduction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/HotChannel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/ShoppingCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/TopMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/My/MyOrderView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/My/MyHeadView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/My/MyCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/My/My.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/More/MoreCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/More/More.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Merchant/Merchant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Main/Launch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Main/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TGMeituan/Components/Home/WellknownShop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

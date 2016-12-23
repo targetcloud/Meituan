@@ -1,5 +1,6 @@
 /**
  * Created by targetcloud on 2016/12/21.
+ * http://blog.csdn.net/callzjy/article/details/53856163
  */
 import React, { Component } from 'react';
 import {
@@ -46,8 +47,8 @@ var GuessLike = React.createClass({
                     <Image source={{uri: (row.imageUrl.search('w.h') == -1) ? row.imageUrl : row.imageUrl.replace('w.h', '120.90') }} style={{width:120,height:90,borderRadius:8}}/>
                     <View style={{marginLeft:8,width:width-156,justifyContent:'center'}}>
                         <View style={{flexDirection:'row',marginBottom:7,justifyContent:'space-between'}}>
-                            <Text>{row.title}</Text>
-                            <Text>{row.topRightInfo}</Text>
+                            <Text style={{fontSize:18,fontWeight:'bold'}}>{row.title}</Text>
+                            <Text style={{color:'grey',alignSelf:'flex-end'}}>{row.topRightInfo}</Text>
                         </View>
                         <Text style={{color:'gray'}}>{row.subTitle}</Text>
                         <View  style={{flexDirection:'row',marginTop:7,justifyContent:'space-between'}}>

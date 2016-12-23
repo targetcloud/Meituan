@@ -58,7 +58,7 @@ var Home = React.createClass({
                     <TouchableOpacity onPress={()=>{this.pushToDetail('https://github.com/targetcloud')}}>
                         <Image source={{uri:'icon_homepage_message'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24,marginTop:Platform.OS == 'ios' ? 10: 0}}/>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={()=>{this.pushToDetail('http://blog.csdn.net/callzjy')}}>
+                    <TouchableOpacity onPress={()=>{this.pushToDetail('http://blog.csdn.net/callzjy/article/details/53856163')}}>
                         <Image source={{uri:'icon_homepage_scan'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24,marginTop:Platform.OS == 'ios' ? 10: 0}} />
                     </TouchableOpacity>
                 </View>
