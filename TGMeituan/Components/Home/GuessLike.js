@@ -66,7 +66,7 @@ var GuessLike = React.createClass({
     },
 
     renderCampaignTag(campaign){
-        if (campaign == null){
+        if (!campaign){
             return <Text/>
         }else {
             return <Text style={{color:'orange',borderWidth:0.5,borderColor:'orange',  borderRadius:4, padding:0.1}}>{campaign.tag}</Text>
