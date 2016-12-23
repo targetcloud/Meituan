@@ -22,7 +22,7 @@
             "otherDesc": "HOT",
             "topicId": 20285,
             "entranceImgUrl": "http://p0.meituan.net/feop/6c9fcecf6629b38c6a311564a2a988ed9346.png",
-            "target": "imeituan://www.meituan.com/web?url=http%3a%2f%2fm.dianping.com%2feducation%2fmt%2findex"
+            "target": "http://i.meituan.com/education/mt/index?utm_campaign=AgroupBgroupGhomepage_category18_20285__a1H0&version_name=7.6.1&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&lat=31.263621&regionid=&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_term=7.6.1&f=iphone&ci=10&lng=121.616751&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D"
           },
           {
             "title": "火车/机票",
@@ -38,7 +38,7 @@
             "otherDesc": "HOT",
             "topicId": 20178,
             "entranceImgUrl": "http://p1.meituan.net/feop/c8f283d9ff32d28277128ed76dacd86d38141.png",
-            "target": "imeituan://www.meituan.com/deal/list?category_id=20178&group_category_id=20178"
+            "target": "http://i.meituan.com/wed/index?utm_campaign=AgroupBgroupGhomepage_category20_99999__a1H0&version_name=7.6.1&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&lat=31.263620&regionid=&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_term=7.6.1&f=iphone&ci=10&lng=121.616800&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D"
           },
           {
             "title": "亲子",
@@ -46,7 +46,7 @@
             "otherDesc": "HOT",
             "topicId": 8766,
             "entranceImgUrl": "http://p0.meituan.net/w.h/groupop/e7609c4c8c61d79e623681128c0c662845863.png",
-            "target": "imeituan://www.meituan.com/deal/list?type=poi&group_category_id=20007&category_id=20007"
+            "target": "http://i.meituan.com/firework/babaqunaer?utm_campaign=AgroupBgroupGhomepage_category20_99999__a1H0&version_name=7.6.1&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&lat=31.263620&regionid=&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_term=7.6.1&f=iphone&ci=10&lng=121.616800&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D"
           },
           {
             "title": "儿童摄影",
@@ -54,7 +54,7 @@
             "otherDesc": "HOT",
             "topicId": 8767,
             "entranceImgUrl": "http://p0.meituan.net/w.h/groupop/0a9fe6ae91e02a9b6bd2c7fd19d90aa522852.png",
-            "target": "imeituan://www.meituan.com/deal/list?group_category_id=398&category_id=398"
+            "target": "http://i.meituan.com/wed/sheying?utm_campaign=AgroupBgroupGhomepage_category15_29__a1H0&version_name=7.6.1&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&lat=31.264134&regionid=&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_term=7.6.1&f=iphone&ci=10&lng=121.616997&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D"
           },
           {
             "title": "运动健身",
@@ -62,7 +62,7 @@
             "otherDesc": "HOT",
             "topicId": 8764,
             "entranceImgUrl": "http://p1.meituan.net/w.h/groupop/4a10f786f316fd5111a8a745d7eb9fc621675.png",
-            "target": "imeituan://www.meituan.com/deal/list?group_category_id=39&category_id=39"
+            "target": "http://m.dianping.com/fitness/node/html/mtindex.html?utm_campaign=AgroupBgroupGhomepage_category20_99999__a1H0&version_name=7.6.1&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&lat=31.264134&regionid=&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_term=7.6.1&f=iphone&ci=10&lng=121.616997&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D"
           }
         ]
 }

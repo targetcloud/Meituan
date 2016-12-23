@@ -40,10 +40,10 @@ var CommonView = React.createClass({
         );
     },
 
-    clickCell(data){
+    clickCell(url){
         if (this.props.tplurl == '') return;
         if (this.props.callBackClickCell == null) return;
-        this.props.callBackClickCell(data);
+        this.props.callBackClickCell(url);
     }
 });
 

@@ -20,7 +20,7 @@ var {width} = Dimensions.get('window');
 var GuessLike = React.createClass({
     getDefaultProps(){
         return{
-            api_url:'http://api.meituan1.com/group/v2/recommend/homepage/city/20?userId=160495643&userid=160495643&__vhost=api.mobile.meituan.com&position=23.134643%2C113.373951&movieBundleVersion=100&utm_term=6.6&limit=40&wifi-mac=64%3A09%3A80%3A10%3A15%3A27&ci=20&__skcy=X6Jxu5SCaijU80yX5ioQuvCDKj4%3D&__skua=5657981d60b5e2d83e9c64b453063ada&__skts=1459731016.350255&wifi-name=Xiaomi_1526&client=iphone&uuid=5C7B6342814C7B496D836A69C872202B5DE8DB689A2D777DFC717E10FC0B4271&__skno=FEB757F5-6120-49EC-85B0-D1444A2C2E7B&utm_content=5C7B6342814C7B496D836A69C872202B5DE8DB689A2D777DFC717E10FC0B4271&utm_source=AppStore&utm_medium=iphone&version_name=6.6&wifi-cur=0&wifi-strength=&offset=0&utm_campaign=AgroupBgroupD100H0&__skck=3c0cf64e4b039997339ed8fec4cddf05&msid=0FA91DDF-BF5B-4DA2-B05D-FA2032F30C6C2016-04-04-08-38594'
+            api_url:'http://api.meituan.com/group/v2/recommend/homepage/city/10?__vhost=api.mobile.meituan.com&position=31.264134%2C121.616997&ci=10&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_medium=iphone&utm_source=AppStore&rn_package_version=0&utm_campaign=AgroupBgroupH0&version_name=7.6.1&wifi-mac=fc%3Ad7%3A33%3Ad4%3A18%3Afa&__skck=3c0cf64e4b039997339ed8fec4cddf05&__skua=258dbee4917f4a90fe3899c04bcf678e&wifi-name=TP-LINK_18FA&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&__reqTraceID=03D48D0A-B937-46DF-A30F-512C7D62E628&__skts=1482526504.368860&__skno=51BE8963-770C-4E39-AFF3-B19F4758BCDC&__skcy=uR1vkBw9P2ydJXmZ1oiVDJJcWwc%3D&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&wifi-strength=&movieBundleVersion=100&client=iphone&wifi-cur=0&utm_term=7.6.1&supportId=1&offset=57'
         }
     },
 
@@ -42,7 +42,7 @@ var GuessLike = React.createClass({
     renderRow(row){
         return(
             <TouchableOpacity onPress={()=>alert(row.title)}>
-                <View style={{backgroundColor:'white',padding:10,borderBottomColor:'#e8e8e8',borderBottomWidth:0.5,flexDirection:'row'}}>
+                <View style={{backgroundColor:'white',padding:10,borderBottomColor:'#FAFAFA',borderBottomWidth:0.1,flexDirection:'row'}}>
                     <Image source={{uri: (row.imageUrl.search('w.h') == -1) ? row.imageUrl : row.imageUrl.replace('w.h', '120.90') }} style={{width:120,height:90,borderRadius:8}}/>
                     <View style={{marginLeft:8,width:width-156,justifyContent:'center'}}>
                         <View style={{flexDirection:'row',marginBottom:7,justifyContent:'space-between'}}>
@@ -51,13 +51,25 @@ var GuessLike = React.createClass({
                         </View>
                         <Text style={{color:'gray'}}>{row.subTitle}</Text>
                         <View  style={{flexDirection:'row',marginTop:7,justifyContent:'space-between'}}>
-                            <Text style={{color:'rgba(33,192,174,1.0)',fontSize:16,fontWeight:'bold'}}>{row.subMessage}</Text>
-                            <Text style={{borderWidth:0.5, borderColor:'gray', borderRadius:4, padding:2, backgroundColor:'#FAFAFA', color:'#CDC9C9'  }}>{row.bottomRightInfo}</Text>
+                            <View style={{flexDirection:'row',marginTop:7,justifyContent:'flex-start',alignItems:'flex-end'}}>
+                              <Text style={{color:'rgba(33,192,174,1.0)',fontSize:18,fontWeight:'bold'}}>{row.mainMessage+row.mainMessage2} </Text>
+                              <Text style={{color:'grey',}}>{row.subMessage} </Text>
+                              {this.renderCampaignTag(row.campaign)}
+                            </View>
+                            <Text style={{color:'grey',alignSelf:'flex-end'}}>{row.bottomRightInfo}</Text>
                         </View>
                     </View>
                 </View>
             </TouchableOpacity>
         )
+    },
+
+    renderCampaignTag(campaign){
+        if (campaign == null){
+            return <Text/>
+        }else {
+            return <Text style={{color:'orange',borderWidth:0.5,borderColor:'orange',  borderRadius:4, padding:0.1}}>{campaign.tag}</Text>
+        }
     },
 
     componentDidMount(){

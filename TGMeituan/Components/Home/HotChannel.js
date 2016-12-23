@@ -42,7 +42,7 @@ var HotChannel = React.createClass({
                     title={itemData.title}
                     subTitle={itemData.deputyTitle}
                     rightIcon={this.dealWithImgUrl(itemData.entranceImgUrl)}
-                    titleColor={'rgba(33,192,174,0.7)'}
+                    titleColor={'rgba(33,192,174,0.8)'}
                     tplurl={itemData.target}
                     key={i}
                     callBackClickCell={(url)=>this.popToHome(url)}/>

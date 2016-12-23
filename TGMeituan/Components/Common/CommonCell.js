@@ -23,7 +23,7 @@ var CommonCell = React.createClass({
     render() {
         return (
             <TouchableOpacity onPress={()=>alert(this.props.leftTitle)}>
-                <View style={{height:44,flexDirection:'row',backgroundColor:'white',alignItems:'center',justifyContent:'space-between',borderBottomColor:'#e8e8e8',borderBottomWidth:0.5}}>
+                <View style={{height:44,flexDirection:'row',backgroundColor:'white',alignItems:'center',justifyContent:'space-between',borderBottomColor:'#F2F2F2',borderBottomWidth:0.1}}>
                     <View style={{flexDirection:'row',alignItems:'center',marginLeft:8}}>
                         <Image source={{uri: this.props.leftIcon}} style={{width:23, height:23, marginRight:5}}/>
                         <Text style={{fontSize:17}}>{this.props.leftTitle}</Text>

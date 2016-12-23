@@ -27,7 +27,7 @@ var DetailPage = React.createClass({
                     <TouchableOpacity onPress={()=>{this.props.navigator.pop()}} style={{position:'absolute',left:8,bottom:Platform.OS == 'ios' ? 15:13}}>
                         <Image source={{uri: 'navigationbar_arrow_up'}} style={{width:Platform.OS == 'ios' ? 14: 24,height:Platform.OS == 'ios' ? 26:24}}/>
                     </TouchableOpacity>
-                    <Text style={{color:'white', fontSize:16, fontWeight:'bold',paddingLeft:8,marginLeft:18}}>{this.props.url}</Text>
+                    <Text style={{color:'white', fontSize:16, fontWeight:'bold',paddingLeft:8,marginLeft:18}}>{this.props.url.length>70 ? this.props.url.slice(0,70)+'...' : this.props.url}</Text>
                 </View>
                 {this.renderWebview()}
             </View>

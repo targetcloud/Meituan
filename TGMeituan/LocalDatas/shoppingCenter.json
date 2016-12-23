@@ -2,9 +2,9 @@
   "count": 4,
   "data": [
     {
-      "detailurl": "imeituan://www.meituan.com/web/?url=http://i.meituan.com/shoppingmall/smDetail/4374715",
+      "detailurl": "http://i.meituan.com/brunch/shoppingmall/detail?smid=83264669&f=iphone&version_name=7.6.1&utm_medium=iphone&rn_package_version=0&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&js_patch_version=2&utm_source=AppStore&utm_campaign=AgroupBgroupGhomepage_searchH0&lng=121.616719&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&regionid=&ci=10&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_term=7.6.1&lat=31.263598",
       "promotionIcon": "",
-      "name": "正佳广场",
+      "name": "百联世纪购物中心",
       "img": "http://p0.meituan.net/codeman/b4686ddc7270363868fcff917d3526cd37899.jpg",
       "showtext": {
         "text": "离我最近",
@@ -17,9 +17,9 @@
       "promotionText": "送福利 商品低至1.5折"
     },
     {
-      "detailurl": "imeituan://www.meituan.com/web/?url=http://i.meituan.com/shoppingmall/smDetail/50606658",
+      "detailurl": "http://i.meituan.com/brunch/shoppingmall/detail?smid=90032790&f=iphone&version_name=7.6.1&utm_medium=iphone&rn_package_version=0&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&js_patch_version=2&utm_source=AppStore&utm_campaign=AgroupBgroupGhomepage_searchH0&lng=121.616807&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&regionid=&ci=10&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_term=7.6.1&lat=31.263743",
       "promotionIcon": "",
-      "name": "白云万达广场",
+      "name": "久金广场",
       "img": "http://p0.meituan.net/codeman/c217fffcbf9b434844434a0acbdb434827837.jpg",
       "showtext": {
         "text": "55家优惠",
@@ -32,9 +32,9 @@
       "promotionText": "春来花开 满100最高减60"
     },
     {
-      "detailurl": "imeituan://www.meituan.com/web/?url=http://i.meituan.com/shoppingmall/smDetail/75813274",
+      "detailurl": "http://i.meituan.com/brunch/shoppingmall/detail?smid=90032790&f=iphone&version_name=7.6.1&utm_medium=iphone&rn_package_version=0&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&utm_source=AppStore&utm_campaign=AgroupBgroupGhomepage_searchH0&lng=121.616853&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&regionid=&ci=10&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_term=7.6.1&lat=31.263611",
       "promotionIcon": "",
-      "name": "凯德广场●云尚",
+      "name": "金桥中心",
       "img": "http://p0.meituan.net/codeman/2ad0711b7ffa9433bdc2577e7896082937607.jpg",
       "showtext": {
         "text": "61家优惠",
@@ -47,9 +47,9 @@
       "promotionText": "新春送福利 购物满额有好礼"
     },
     {
-      "detailurl": "imeituan://www.meituan.com/web/?url=http://i.meituan.com/shoppingmall/smDetail/41692498",
+      "detailurl": "http://i.meituan.com/brunch/shoppingmall/detail?smid=74869277&f=iphone&version_name=7.6.1&utm_medium=iphone&rn_package_version=0&msid=34E87CC7-9978-4821-ABB9-CF00186A8CE22016-12-24-03-49275&js_patch_version=2&utm_source=AppStore&utm_campaign=AgroupBgroupGhomepage_searchH0&lng=121.618001&utm_content=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&regionid=&ci=10&uuid=DA7C054748001CB5C2516E8180303BEF0DBA38E36426D19040D215D4D246D16D&utm_term=7.6.1&lat=31.261374",
       "promotionIcon": "",
-      "name": "来又来广场",
+      "name": "国金中心广场",
       "img": "http://p0.meituan.net/codeman/d675f4ad9b7ece9f0593db298beb082d31800.jpg",
       "showtext": {
         "text": "48家优惠",

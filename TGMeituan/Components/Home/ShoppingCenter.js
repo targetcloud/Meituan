@@ -75,7 +75,7 @@ var ShoppingCenterItem = React.createClass({
             <TouchableOpacity onPress={()=>this.clickItem(this.props.detailurl)}>
                 <View style={{margin:8}}>
                     <Image source={{uri: this.props.shopImage}} style={{width:120,height:100,borderRadius:8}}/>
-                    <Text style={{position:'absolute',left:0,bottom:30,backgroundColor:'red',color:'white',padding:2}}>{this.props.shopSale}</Text>
+                    <Text style={{position:'absolute',left:0,bottom:30,backgroundColor:'rgba(33,192,174,0.6)',color:'white',padding:2}}>{this.props.shopSale}</Text>
                     <Text style={{textAlign:'center',marginTop:5}}>{this.props.shopName}</Text>
                 </View>
             </TouchableOpacity>
@@ -83,11 +83,11 @@ var ShoppingCenterItem = React.createClass({
     },
 
     clickItem(url){
-        if (this.props.detailurl == '') return;
+        if (url == '') return;
+        //url = url + '?uuid=5C7B6342814C7B496D836A69C872202B5DE8DB689A2D777DFC717E10FC0B4271&utm_term=6.6&utm_source=AppStore&utm_content=5C7B6342814C7B496D836A69C872202B5DE8DB689A2D777DFC717E10FC0B4271&version_name=6.6&userid=160495643&utm_medium=iphone&lat=23.134709&utm_campaign=AgroupBgroupD100Ghomepage_shoppingmall_detailH0&token=b81UqRVf6pTL4UPLLBU7onkvyQoAAAAAAQIAACQVmmlv_Qf_xR-hBJVMtIlq7nYgStcvRiK_CHFmZ5Gf70DR47KP2VSP1Fu5Fc1ndA&lng=113.373890&f=iphone&ci=20&msid=0FA91DDF-BF5B-4DA2-B05D-FA2032F30C6C2016-04-04-08-38594';
         if (this.props.popToShoppingCenter == null) return;
         this.props.popToShoppingCenter(url);
     }
-
 });
 
 module.exports = ShoppingCenter;

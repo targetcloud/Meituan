@@ -44,16 +44,22 @@ var Home = React.createClass({
     renderNavbar(){
         return(
             <View style={{height: Platform.OS == 'ios' ? 64 : 44,backgroundColor:'rgba(33,192,174,1.0)',flexDirection:'row',alignItems:'center',justifyContent:'space-around'}}>
-                <TouchableOpacity onPress={()=>{this.pushToDetail('')}}>
-                    <Text style={{color:'white',marginTop:8}}>上海</Text>
+                <TouchableOpacity style={{flexDirection:'row',alignItems:'center'}}onPress={()=>{this.pushToDetail('https://github.com/targetcloud/Meituan')}}>
+                    <Text style={{color:'white',marginTop:Platform.OS == 'ios' ? 10 : 4}}>上海</Text>
+                    <Image source={{uri:'icon_homepage_down_arrow'}} style={{width:Platform.OS == 'ios' ? 13: 10,height:Platform.OS == 'ios' ? 10: 8,marginTop:Platform.OS == 'ios' ? 12: 5}}/>
                 </TouchableOpacity>
-                <TextInput placeholder="输入商家, 品类, 商圈" style={{width:width * 0.7,height:Platform.OS == 'ios' ? 36 : 30,backgroundColor:'white',marginTop: Platform.OS == 'ios' ? 18 : 0,borderRadius:8,paddingLeft:8}}/>
+                <TextInput underlineColorAndroid={'white'} placeholder="输入商家, 品类, 商圈" style={{width:width * 0.7,height:Platform.OS == 'ios' ? 36 : 30,backgroundColor:'white',
+                    marginTop: Platform.OS == 'ios' ? 18 : 0,fontSize: Platform.OS == 'ios' ? 14 : 10,
+                    paddingTop: Platform.OS == 'ios' ? 4 : 2,
+                    paddingBottom: Platform.OS == 'ios' ? 4 : 2,
+                    paddingLeft:8,
+                    borderRadius:8}}/>
                 <View style={{flexDirection:'row',height:64,alignItems:'center'}}>
-                    <TouchableOpacity onPress={()=>{alert('message')}}>
-                        <Image source={{uri:'icon_homepage_message'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24}}/>
+                    <TouchableOpacity onPress={()=>{this.pushToDetail('https://github.com/targetcloud')}}>
+                        <Image source={{uri:'icon_homepage_message'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24,marginTop:Platform.OS == 'ios' ? 10: 0}}/>
                     </TouchableOpacity>
-                    <TouchableOpacity onPress={()=>{alert('scan')}}>
-                        <Image source={{uri:'icon_homepage_scan'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24}} />
+                    <TouchableOpacity onPress={()=>{this.pushToDetail('http://blog.csdn.net/callzjy')}}>
+                        <Image source={{uri:'icon_homepage_scan'}} style={{width:Platform.OS == 'ios' ? 28: 24,height:Platform.OS == 'ios' ? 28: 24,marginTop:Platform.OS == 'ios' ? 10: 0}} />
                     </TouchableOpacity>
                 </View>
             </View>
